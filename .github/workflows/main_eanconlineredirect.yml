@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy PHP app to Azure Web App - adcmeetingrooms
+name: Build and deploy PHP app to Azure Web App - aeanconlineredirect
 
 on:
   push:
@@ -67,3 +67,4 @@ jobs:
           package: .
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6254AD36BD804AEFAAF3D58CE82736A6 }}
+
